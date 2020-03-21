@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab|Quicksand|Solway&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    -webkit-transition: 0.2s ease;
+    transition: 0.2s ease;
+    font-family: 'Solway';
+}
+
+.background {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+
+    background: url('../84215.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    /* Add the blur effect
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    -ms-filter: blur(3px);
+    filter: blur(3px); */
+}
+
+.wrapper {
+    /* width: 100%; */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.section {
+    padding: 1rem 1.5rem;
+}
+
+h1.title  {
+    color: #E91E63 !important;
+}
+
+.subtitle {
+    font-size: 12pt;
+    letter-spacing: 1pt;
+    line-height: 15pt;
+}
+
+li {
+    margin-bottom: 10px;
+    color: #fafafa;
+}
+
+h1, h2, strong {
+    color: #fafafa !important;
+}
+
+.link {
+    font-weight: bold;
+    color: #fafafa;
+    border-bottom: 2px solid #fafafa;
+    padding-bottom: 1px;
+}
+
+a:hover {
+    color: #fafafa;
+    border-bottom: 2px solid #E91E63;
+}
+
+.c-footer {
+    width: 100%;
+    font-weight: 900;
+    color: #E91E63;
+}
+
+.c-footer a {
+    color: #fafafa;
+}
